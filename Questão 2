@@ -1,0 +1,26 @@
+# Questão 2)
+# Candidato Natan Oliveira da Silva
+# Código feito em Python
+# A variável numero declarada abaixo é o número de teste
+# a ser usado para avaliar se o programa funciona ou não
+numero = 19;
+
+num1=0
+num2=1
+num3=0
+o_numero_pertence_a_sequencia=False
+
+while numero >= num3:
+    num3=num1+num2
+    if numero == num3:
+        o_numero_pertence_a_sequencia=True
+        break
+    num1=num2
+    num2=num3
+    
+if numero==0:o_numero_pertence_a_sequencia=True
+
+if o_numero_pertence_a_sequencia==True:
+    print("O número faz parte da sequência de Fibonacci")
+else:
+    print("O número NÃO faz parte da sequência de Fibonacci")

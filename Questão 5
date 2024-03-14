@@ -1,0 +1,12 @@
+# Questão 5)
+# Candidato Natan Oliveira da Silva
+# Código feito em Python
+
+string=input("Digite uma string qualquer...\n")
+
+string_invertida=""
+
+for letra in string:
+    string_invertida = letra + string_invertida
+    
+print("A string invertida é", string_invertida)
